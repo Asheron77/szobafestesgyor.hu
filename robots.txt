@@ -1,4 +1,26 @@
 User-agent: *
 Allow: /
 
+# OpenAI Botok (ChatGPT keresések és hivatkozások)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Botok (Claude AI keresések)
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity AI (Kifejezetten MI-alapú keresőmotor)
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI kiterjesztés (Gemini modellekhez)
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://szobafestesgyor.hu/sitemap.xml
