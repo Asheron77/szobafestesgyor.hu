@@ -47,24 +47,24 @@
     "versionPublish": "6.1.12",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/favicon_1.ico",
-    "mbrsiteDomain": "fmqo1admwo",
-    "robotsSwitcher": false,
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-1_2.ico",
+    "mbrsiteDomain": "j5hxfhxscm",
+    "robotsSwitcher": true,
     "sitemapSwitcher": true,
-    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcherAuto": false,
     "siteUrl": "http://szobafestesgyor.hu",
     "cookiesAlert": false,
     "gdpr": false,
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-11217008-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-11217008-1');\n</script>\n",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-11217008-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-11217008-1');\n</script>\n\n",
+    "robotsText": "User-agent: *\nAllow: /\n\n# OpenAI Botok (ChatGPT keresések és hivatkozások)\nUser-agent: GPTBot\nAllow: /\nUser-agent: OAI-SearchBot\nAllow: /\nUser-agent: ChatGPT-User\nAllow: /\n\n# Anthropic Botok (Claude AI keresések)\nUser-agent: ClaudeBot\nAllow: /\nUser-agent: Claude-SearchBot\nAllow: /\n\n# Perplexity AI (Kifejezetten MI-alapú keresőmotor)\nUser-agent: PerplexityBot\nAllow: /\n\n# Google AI kiterjesztés (Gemini modellekhez)\nUser-agent: Google-Extended\nAllow: /\n\nSitemap: https://szobafestesgyor.hu/sitemap.xml",
     "usedWebp": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Szobafestés,mázolás,tapétázás,győr,falfestés,festő,szobafestő,gipszkarton",
-        "meta_descr": "szobafestés,mázolás,tapétázás,szobafestő,győr,falfestés,festés,gipszkarton",
+        "title": "Szobafestés Győrben és környékén | Soós Balázs",
+        "meta_descr": "Professzionális szobafestés, mázolás, tapétázás és gipszkarton szerelés Győrben és környékén. Precíz munka, tiszta otthon. Kérjen ingyenes felmérést!",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
